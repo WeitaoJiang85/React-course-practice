@@ -1,0 +1,73 @@
+.container {
+  background-color: #282c34;
+  background-size: cover;
+  color: white;
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+}
+
+.card {
+  background-color: aliceblue;
+  color: black;
+  width: 600px;
+  height: 800px;
+  border: solid grey 2px;
+  border-radius: 5%;
+  margin: 30px;
+  padding: 20px 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #938f94;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  font-size: 100px;
+  margin: 60px;
+}
+
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+}
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 25px;
+}
+p {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+}
+
+label {
+  font-style: oblique;
+  font-size: 35px;
+  color: red;
+}
+img {
+  width: 400px;
+  height: 400px;
+  box-shadow: 3px 3px gray;
+  border-radius: 5%;
+}
+
+.product-price {
+  line-height: 18px;
+  display: block;
+}
+
+button {
+  font-size: 35px;
+  background-color: #cf75f0;
+  color: aliceblue;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 50%;
+  padding: 8px 30px;
+}

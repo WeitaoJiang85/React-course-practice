@@ -1,0 +1,140 @@
+html {
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  margin: 8px auto;
+  text-align: center;
+  align-items: center;
+  overflow: scroll;
+  background-image: linear-gradient(to bottom right, #2c30f3, #7e1ded);
+  background-repeat: repeat;
+  color: white;
+}
+
+.container {
+  width: auto;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#head {
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+  font-family: 'Fascinate', cursive;
+  font-size: 90px;
+  text-shadow: 12px 8px 2px rgba(13, 13, 13, 0.6);
+}
+.card {
+  background-color: rgba(241, 241, 235, 0.3);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-shadow: 6px 6px 4px rgba(13, 13, 13, 0.5);
+  border-radius: 30px;
+  box-shadow: 6px 5px 4px rgba(13, 13, 13, 0.6);
+}
+
+span {
+  font-size: 66px;
+  display: block;
+  text-align: center;
+  padding: 2px;
+  margin: 2px;
+}
+
+#maxTemp {
+  font-size: 40px;
+  margin-block-start: 0.6em;
+  margin-block-end: 0.3em;
+}
+.dailyForecast {
+  background-image: linear-gradient(to bottom right, #9dcff5, #556adf);
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 6px 3px rgba(13, 13, 13, 0.5);
+  padding: 10px;
+  margin: 15px;
+}
+
+#heatWarning {
+  background-color: rgb(180, 19, 19);
+  font-weight: bolder;
+  text-shadow: none;
+  padding: 6px 5px;
+  border-radius: 5px;
+  box-shadow: 8px 6px 4px rgba(13, 13, 13, 0.5);
+}
+
+#windWarning {
+  background-color: rgb(218, 140, 17);
+  font-weight: bolder;
+  text-shadow: none;
+  padding: 6px;
+  border-radius: 5px;
+  box-shadow: 8px 6px 4px rgba(13, 13, 13, 0.5);
+}
+
+#day {
+  font-size: 35px;
+}
+
+.gridContainer {
+  width: 220px;
+  border-radius: 10px;
+  text-shadow: 3px 2px 3px rgba(13, 13, 13, 0.6);
+  box-shadow: 2px 2px 4px rgba(13, 13, 13, 0.5);
+  background-color: rgba(128, 128, 128, 0.3);
+}
+
+.gridHead {
+  display: grid;
+  grid-template-columns: 105px 95px;
+  grid-template-rows: auto;
+  font-size: large;
+  background-color: rgba(35, 17, 240, 0.5);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1px 0px 3px 0px;
+  color: yellow;
+}
+
+.gridBox {
+  text-shadow: 3px 2px 3px rgba(13, 13, 13, 0.6);
+  padding: 1.5px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: auto;
+}
+
+.ab35 {
+  background-color: rgb(240, 61, 17);
+}
+.ab30 {
+  background-color: rgb(237, 117, 5);
+}
+.ab25 {
+  background-color: rgb(237, 233, 5);
+}
+.ab20 {
+  background-color: rgb(5, 237, 13);
+}
+.ab15 {
+  background-color: rgb(5, 237, 229);
+}
+.ab10 {
+  background-color: rgb(5, 152, 237);
+}
+
+.cold {
+  background-color: rgb(9, 105, 222);
+}
